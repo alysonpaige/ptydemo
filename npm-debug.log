@@ -1,30 +1,28 @@
 info it worked if it ends with ok
-verbose cli [ 'node',
-verbose cli   '/usr/bin/npm',
-verbose cli   'install',
-verbose cli   'babel-plugin-add-module-exports',
-verbose cli   '--save-dev' ]
+verbose cli [ 'node', '/usr/bin/npm', 'install', 'bootstrap@4.0.0-beta' ]
 info using npm@1.1.4
 info using node@v0.6.12
 verbose config file /home/vagrant/.npmrc
 verbose config file /usr/etc/npmrc
 verbose config file /usr/share/npm/npmrc
-verbose cache add [ 'babel-plugin-add-module-exports', null ]
+verbose cache add [ 'bootstrap@4.0.0-beta', null ]
 silly cache add: name, spec, args [ undefined,
-silly cache add: name, spec, args   'babel-plugin-add-module-exports',
-silly cache add: name, spec, args   [ 'babel-plugin-add-module-exports', null ] ]
-verbose parsed url { pathname: 'babel-plugin-add-module-exports',
-verbose parsed url   path: 'babel-plugin-add-module-exports',
-verbose parsed url   href: 'babel-plugin-add-module-exports' }
-verbose addNamed [ 'babel-plugin-add-module-exports', '' ]
-verbose addNamed [ null, '' ]
-silly name, range, hasData [ 'babel-plugin-add-module-exports', '', false ]
-verbose raw, before any munging babel-plugin-add-module-exports
-verbose url resolving [ 'https://registry.npmjs.org/',
-verbose url resolving   './babel-plugin-add-module-exports' ]
-verbose url resolved https://registry.npmjs.org/babel-plugin-add-module-exports
-http GET https://registry.npmjs.org/babel-plugin-add-module-exports
-ERR! Error: failed to fetch from registry: babel-plugin-add-module-exports
+silly cache add: name, spec, args   'bootstrap@4.0.0-beta',
+silly cache add: name, spec, args   [ 'bootstrap@4.0.0-beta', null ] ]
+verbose parsed url { pathname: 'bootstrap@4.0.0-beta',
+verbose parsed url   path: 'bootstrap@4.0.0-beta',
+verbose parsed url   href: 'bootstrap@4.0.0-beta' }
+silly cache add: name, spec, args [ 'bootstrap', '4.0.0-beta', [ 'bootstrap', '4.0.0-beta' ] ]
+verbose parsed url { pathname: '4.0.0-beta',
+verbose parsed url   path: '4.0.0-beta',
+verbose parsed url   href: '4.0.0-beta' }
+verbose addNamed [ 'bootstrap', '4.0.0-beta' ]
+verbose addNamed [ '4.0.0-beta', '4.0.0-beta' ]
+verbose raw, before any munging bootstrap/4.0.0-beta
+verbose url resolving [ 'https://registry.npmjs.org/', './bootstrap/4.0.0-beta' ]
+verbose url resolved https://registry.npmjs.org/bootstrap/4.0.0-beta
+http GET https://registry.npmjs.org/bootstrap/4.0.0-beta
+ERR! Error: failed to fetch from registry: bootstrap/4.0.0-beta
 ERR!     at /usr/share/npm/lib/utils/npm-registry-client/get.js:139:12
 ERR!     at cb (/usr/share/npm/lib/utils/npm-registry-client/request.js:31:9)
 ERR!     at Request._callback (/usr/share/npm/lib/utils/npm-registry-client/request.js:136:18)
@@ -41,9 +39,9 @@ ERR! or use
 ERR!     reportbug --attach /vagrant/src/ptydemo/npm-debug.log npm
 ERR! 
 ERR! System Linux 3.2.0-23-generic-pae
-ERR! command "node" "/usr/bin/npm" "install" "babel-plugin-add-module-exports" "--save-dev"
+ERR! command "node" "/usr/bin/npm" "install" "bootstrap@4.0.0-beta"
 ERR! cwd /vagrant/src/ptydemo
 ERR! node -v v0.6.12
 ERR! npm -v 1.1.4
-ERR! message failed to fetch from registry: babel-plugin-add-module-exports
+ERR! message failed to fetch from registry: bootstrap/4.0.0-beta
 verbose exit [ 1, true ]
