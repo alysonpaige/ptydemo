@@ -15,3 +15,12 @@
  *= require foundation
  */
 
+.top-bar-section .right .has-dropdown .navlogo {
+    background: url('cayucoculture.jpg') no-repeat;
+    content: "";
+    display: inline;
+    height: 18px;
+    margin-right: 10px;
+    position: relative;
+    width: 18px;
+}
