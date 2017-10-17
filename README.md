@@ -8,7 +8,7 @@ PTYdemo is a mockup page for an outdoor sports company designed to illustrate ho
 
 * Foundation
 
-![ScreenShot](https://raw.github.com/alysonpaige/ptydemo/blob/master/app/assets/images/ptydemo.png)
+![ptydemo](https://user-images.githubusercontent.com/21123465/31679517-5d673e62-b33f-11e7-837b-e8b4d587c54a.png)
 
 ## Live site
 
