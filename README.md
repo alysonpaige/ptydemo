@@ -1,24 +1,15 @@
-# README
+# PTYDEMO
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+PTYdemo is a mockup page for an outdoor sports company designed to illustrate how to incorporate more than one brand under a site.
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+* Ruby
 
-* System dependencies
+* Foundation
 
-* Configuration
+![ptydemo](app/assets/images/ptydemo.jpg)
 
-* Database creation
+## Live site
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+http://ptydemo.herokuapp.com/
